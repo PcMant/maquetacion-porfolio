@@ -1,0 +1,86 @@
+:root{
+    --color-scrollbar: #d3d3d3;
+    --color-background-scrollbar: #eee;
+}
+
+/*SCORLL MOZ*/
+/*En firefox está más limitado la personalización sobre el scroll*/
+.content__page,
+.layout__aside{
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar) transparent;
+}
+
+.layout__aside{
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar) var(--color-secondary);
+}
+
+
+/*SCROLL CHORME*/
+/*barra de scroll*/
+.content__page::-webkit-scrollbar{
+    width: 25px;
+    background: transparent;
+}
+
+/*la parte de la barra que hace el desplazamiento y acompaña el movimiento*/
+.content__page::-webkit-scrollbar-thumb{
+    border: 10px solid transparent;
+    box-shadow: none;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.content__page:hover::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 0 10px var(--color-scrollbar);
+}
+
+/*efecto donde cambia el tamaño y el color del thumb*/
+.content__page:hover::-webkit-scrollbar-thumb:hover{
+    border: 8px solid transparent;
+    box-shadow: inset 0 0 0 10px var(--color-secondary);
+}
+
+/*afecta lo que viene siendo toda la barra*/
+.content__page:hover::-webkit-scrollbar-track{
+    background-color: transparent;
+    margin: 40px 0;
+}
+
+/*SCROLL CHORME BARRA LATERAL*/
+/*barra de scroll*/
+.layout__aside::-webkit-scrollbar{
+    width: 25px;
+    background: var(--color-secondary);
+}
+
+/*la parte de la barra que hace el desplazamiento y acompaña el movimiento*/
+.layout__aside::-webkit-scrollbar-thumb{
+    border: 10px solid transparent;
+    box-shadow: none;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 0 10px var(--color-principal);
+}
+
+/*efecto donde cambia el tamaño y el color del thumb*/
+.layout__aside:hover::-webkit-scrollbar-thumb:hover{
+    border: 8px solid transparent;
+    box-shadow: inset 0 0 0 10px var(--color-principal);
+}
+
+/*afecta lo que viene siendo toda la barra*/
+.layout__aside:hover::-webkit-scrollbar-track{
+    background-color: transparent;
+    margin: 40px 0;
+}
