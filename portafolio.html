@@ -1,129 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Portafolio - Juan Molina</title>
 
-    <!-- Estilos -->
-    <link
-      rel="stylesheet"
-      href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/scroll.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>Portafolio - Juan Molina</title>
 
-    <!--Script JS (defer es para que se ejecute una vez este el DOM cargado)-->
-    <script src="assets/js/menu.js" defer></script>
-  </head>
-  <body>
-    <!-- layout principal (layout es todo el contenido)-->
-    <div class="layout">
-      <!-- Barra lataral (info usuario)-->
-      <aside class="layout__aside">
-        <section class="aside__user-info">
-          <!-- Información general usuario -->
-          <div class="user-info__general">
-            <div class="user-info__container-image">
-              <img
-                src="./assets/img/default-user.jpg"
-                alt="Foto de perfil del usuario"
-                class="user-info__image"
-              />
-            </div>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/scroll.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
 
-            <h2 class="user-info__name">Juan Molina</h2>
-            <h3 class="user-info__job">Desarrollador web</h3>
+  <!--Script JS (defer es para que se ejecute una vez este el DOM cargado)-->
+  <script src="assets/js/menu.js" defer></script>
+</head>
+
+<body>
+
+  <!-- layout principal (layout es todo el contenido)-->
+  <div class="layout">
+    <!-- Barra lataral (info usuario)-->
+    <aside class="layout__aside">
+      <section class="aside__user-info">
+        <!-- Información general usuario -->
+        <div class="user-info__general">
+          <div class="user-info__container-image">
+            <img src="./assets/img/default-user.jpg" alt="Foto de perfil del usuario" class="user-info__image" />
           </div>
 
-          <!-- Menú de navegación -->
-          <nav class="layout__menu">
-            <ul class="menu__list">
-              <li class="menu__option">
-                <a href="index.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-house"></i>
-                  <span class="menu__overlay">Home</span>
-                </a>
-              </li>
+          <h2 class="user-info__name">Juan Molina</h2>
+          <h3 class="user-info__job">Desarrollador web</h3>
+        </div>
 
-              <li class="menu__option">
-                <a href="sobre-mi.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-user"></i>
-                  <span class="menu__overlay">Sobre mi</span>
-                </a>
-              </li>
+        <!-- Menú de navegación -->
+        <nav class="layout__menu">
+          <ul class="menu__list">
+            <li class="menu__option">
+              <a href="index.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-house"></i>
+                <span class="menu__overlay">Home</span>
+              </a>
+            </li>
 
-              <li class="menu__option">
-                <a href="curriculum.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
-                  <span class="menu__overlay">Currículum</span>
-                </a>
-              </li>
+            <li class="menu__option">
+              <a href="sobre-mi.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-user"></i>
+                <span class="menu__overlay">Sobre mi</span>
+              </a>
+            </li>
 
-              <li class="menu__option">
-                <a href="portafolio.html" class="menu__link menu__link--active">
-                  <i class="menu__icon fa-solid fa-briefcase"></i>
-                  <span class="menu__overlay">Portafolio</span>
-                </a>
-              </li>
+            <li class="menu__option">
+              <a href="curriculum.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                <span class="menu__overlay">Currículum</span>
+              </a>
+            </li>
 
-              <li class="menu__option">
-                <a href="blog.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-book"></i>
-                  <span class="menu__overlay">Blog</span>
-                </a>
-              </li>
+            <li class="menu__option">
+              <a href="portafolio.html" class="menu__link menu__link--active">
+                <i class="menu__icon fa-solid fa-briefcase"></i>
+                <span class="menu__overlay">Portafolio</span>
+              </a>
+            </li>
 
-              <li class="menu__option">
-                <a href="contacto.html" class="menu__link">
-                  <i class="menu__icon fa-solid fa-envelope"></i>
-                  <span class="menu__overlay">Contacto</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+            <li class="menu__option">
+              <a href="blog.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-book"></i>
+                <span class="menu__overlay">Blog</span>
+              </a>
+            </li>
 
-          <!-- Links a redes sociales -->
-          <div class="user-info__links">
+            <li class="menu__option">
+              <a href="contacto.html" class="menu__link">
+                <i class="menu__icon fa-solid fa-envelope"></i>
+                <span class="menu__overlay">Contacto</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Links a redes sociales -->
+        <div class="user-info__links">
             <ul class="links__social">
-              <li class="social__option">
-                <a href="#" class="social__link">
-                  <i class="social__icon fa-brands fa-youtube"></i>
-                </a>
-              </li>
 
-              <li class="social__option">
-                <a href="#" class="social__link">
-                  <i class="social__icon fa-brands fa-linkedin"></i>
-                </a>
-              </li>
+                <li class="social__option">
+                    <a href="https://www.linkedin.com/in/juanmol/" target="_blank" class="social__link">
+                        <i class="social__icon fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
 
-              <li class="social__option">
-                <a href="#" class="social__link">
-                  <i class="social__icon fa-brands fa-instagram"></i>
-                </a>
-              </li>
+                <li class="social__option">
+                    <a href="https://github.com/PcMant" target="_blank" class="social__link">
+                        <i class="social__icon fa-brands fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social__option">
+                    <a href="https://www.pcmant.com/" target="_blank" class="social__link">
+                        <i class="social__icon fa-brands fa-blogger"></i>
+                    </a>
+                </li>
+
             </ul>
-          </div>
+        </div>
 
-          <!-- Botón del currículum-->
-          <div class="user-info__buttons">
-            <a href="#" class="user-info__btn">Descargar CV</a>
-          </div>
+        <!-- Botón del currículum-->
+        <div class="user-info__buttons">
+          <a href="https://www.getmanfred.com/perfil/juanm" class="user-info__btn">Descargar CV</a>
+        </div>
 
-          <!-- Pie de página-->
-          <footer class="user-info__footer">&copy; 2023 Juan Molina</footer>
-        </section>
-      </aside>
-
-      <!--Menu responsive-->
-      <div class="layout__menu-toggle">
-        <i class="menu-toggle__icon fa-solid fa-bars"></i>
-        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
-      </div>
+        <!-- Pie de página-->
+        <footer class="user-info__footer">
+          <a href="privacidad.html">Política de Privacidad</a><br/>
+          &copy; 2025 Juan Molina - <a href="https://www.pcmant.com/" target="_blank">PcMant</a>
+        </footer>
+      </section>
+    </aside>
 
       <!-- Contenido principal -->
       <main class="layout__content">
