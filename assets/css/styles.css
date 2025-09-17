@@ -498,8 +498,7 @@ body{
 
 .services__service:last-child:nth-child(odd){
     flex-basis: calc(100% - 3rem);
-    margin-right: 3rem;
-    margin-bottom: 2.5rem;
+
 }
 
 .service__real-icon{
