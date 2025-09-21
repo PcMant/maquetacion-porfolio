@@ -301,6 +301,22 @@
     }
 }
 
+@media (max-width: 429px){
+
+    .page__job{
+        text-align: center;
+    }
+
+    .job__span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 436px){
+    .form-header__title {font-size: 1.6rem;}
+}
+
 @media (max-width: 480px){
 
     .page__name{
@@ -334,14 +350,6 @@
     }
 }
 
-@media (max-width: 429px){
-
-    .page__job{
-        text-align: center;
-    }
-
-    .job__span{
-        display: block;
-        text-align: center;
-    }
+@media (max-width: 360px){
+    .form-header__title {font-size: 1.5rem;}
 }
