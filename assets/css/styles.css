@@ -216,8 +216,9 @@ body{
     font-size: 1.2rem;
 }
 
-.user-info__footer>a{
+.user-info__footer__a{
     display: inline;
+    text-decoration: underline;
 }
 
 /*MENÚ NAVEGACIÓN LATERAL*/
