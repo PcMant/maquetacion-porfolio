@@ -333,3 +333,15 @@
         max-height: 100%;
     }
 }
+
+@media (max-width: 429px){
+
+    .page__job{
+        text-align: center;
+    }
+
+    .job__span{
+        display: block;
+        text-align: center;
+    }
+}
